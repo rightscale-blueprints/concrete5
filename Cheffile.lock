@@ -1,0 +1,48 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apache2 (1.6.2)
+    application (2.0.0)
+    application_php (1.0.4)
+      apache2 (>= 0.0.0)
+      php (>= 0.0.0)
+    build-essential (1.4.0)
+    chef_handler (1.1.4)
+    dmg (1.1.0)
+    git (2.5.0)
+      build-essential (>= 0.0.0)
+      dmg (>= 0.0.0)
+      runit (>= 1.0)
+      windows (>= 0.0.0)
+      yum (>= 0.0.0)
+    mysql (3.0.0)
+      build-essential (>= 0.0.0)
+      openssl (>= 0.0.0)
+    openssl (1.0.2)
+    php (1.1.8)
+      build-essential (>= 0.0.0)
+      mysql (>= 0.0.0)
+      xml (>= 0.0.0)
+    runit (1.1.2)
+      build-essential (>= 0.0.0)
+      yum (>= 0.0.0)
+    windows (1.8.8)
+      chef_handler (>= 0.0.0)
+    xml (1.1.2)
+      build-essential (>= 0.0.0)
+    yum (2.2.0)
+
+GIT
+  remote: https://github.com/flaccid/cookbooks
+  path: cookbooks/concrete5
+  ref: master
+  sha: e1fb5ff034b1b0e5fcb73cd90a5e428736bc95e5
+  specs:
+    concrete5 (0.0.1)
+      application (>= 0.0.0)
+      application_php (>= 0.0.0)
+      git (>= 0.0.0)
+
+DEPENDENCIES
+  concrete5 (>= 0)
+
