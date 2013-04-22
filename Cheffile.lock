@@ -36,7 +36,7 @@ GIT
   remote: https://github.com/flaccid/cookbooks
   path: cookbooks/concrete5
   ref: master
-  sha: e3222dc3a8f671842ede8c94e33ede7da5a06615
+  sha: ea777be273020f2995459f8caee6bd00ba6cc1a0
   specs:
     concrete5 (0.0.1)
       application (>= 0.0.0)
